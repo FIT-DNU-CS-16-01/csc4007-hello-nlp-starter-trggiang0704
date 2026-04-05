@@ -55,7 +55,7 @@ Repo link (GitHub) + đủ README / tests (>=5) / logs / results / report_page.m
 
 ## 7) Lệnh chạy “1 phát ăn ngay” (SV copy)
 ```bash
-python src/env_check.py && python src/hello_nlp_random.py && pytest -q
+python src/env_check.py && python src/hello_nlp.py && pytest -q
 ```
 
 ## 8) CI tự động kiểm tra bài (GitHub Actions) — vì sao bạn thấy dấu ✅ / ❌
