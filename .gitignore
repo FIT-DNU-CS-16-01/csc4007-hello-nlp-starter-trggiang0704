@@ -10,8 +10,15 @@ venv/
 .ipynb_checkpoints/
 .DS_Store
 
+# ignore logs nhưng CHO PHÉP file lab
 logs/*.log
+!logs/lab0_run.log
+!logs/lab0_hello_nlp.log
+
+# ignore results nhưng CHO PHÉP file lab
 results/*.json
 results/*.csv
+!results/lab0_env.json
+!results/lab0_metrics.json
 
 .cache/
