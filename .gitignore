@@ -10,8 +10,6 @@ venv/
 .ipynb_checkpoints/
 .DS_Store
 
-logs/*.log
-results/*.json
 results/*.csv
 
 .cache/
