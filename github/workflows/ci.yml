@@ -31,7 +31,6 @@ jobs:
           python src/hello_nlp.py
           pytest -q
 
-      # (Optional) Upload artefacts (logs/results) để GV/TA mở xem nhanh
       - name: Upload artefacts
         if: always()
         uses: actions/upload-artifact@v4

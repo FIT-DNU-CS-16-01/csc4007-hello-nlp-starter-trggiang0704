@@ -30,3 +30,6 @@ black
 python-dotenv
 cleanlab>=2.6,<3.0
 great_expectations>=0.18,<1.0
+
+charset-normalizer
+chardet
