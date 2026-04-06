@@ -28,7 +28,7 @@ jobs:
       - name: Run env check + hello NLP + tests
         run: |
           python src/env_check.py
-          python src/hello_nlp_random.py
+          python src/hello_nlp.py
           pytest -q
 
       - name: Upload artefacts
